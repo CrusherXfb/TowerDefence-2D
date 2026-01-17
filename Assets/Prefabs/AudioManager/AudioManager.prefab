@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5297094513701458674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6522265580022712933}
+  - component: {fileID: 5020132218333188834}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6522265580022712933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297094513701458674}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1053.1912, y: -734.0086, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5020132218333188834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297094513701458674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 508054fb18fc10745adb516e0c7f9d05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  musicSource: {fileID: 0}
+  menuMusic: {fileID: 8300000, guid: 327aeb6d050b75841b9fc140952ec637, type: 3}
+  gameMusic: {fileID: 8300000, guid: 2ba09794486321e4f8dade758eb55886, type: 3}
+  musicVolume: 0.5
+  buttonClick: {fileID: 8300000, guid: 8a8b61d167134c945a83051512ba7c8e, type: 3}
+  menuOpen: {fileID: 8300000, guid: 16ed936241a3c47478764f0253d48083, type: 3}
+  menuClose: {fileID: 8300000, guid: eb0864bc0b82b774b8112c2ed0c56957, type: 3}
+  buildTower: {fileID: 8300000, guid: fb0839c73f53e7f43b1f9a1779ff34db, type: 3}
+  sellTower: {fileID: 8300000, guid: 6bd5982113aba3c44b31f842ea61f450, type: 3}
+  upgradeTower: {fileID: 8300000, guid: 6e203d2dfb1c1ce499d85061967ac7c8, type: 3}
+  notEnoughMoney: {fileID: 8300000, guid: 1df9e7009f445bc48933bed7ef95422c, type: 3}
+  towerShootNormal: {fileID: 8300000, guid: 23093da8908a24c41b17ff83e66d3081, type: 3}
+  towerShootAOE: {fileID: 8300000, guid: 2d7dec80b1eaf1645a5fab2174859910, type: 3}
+  towerShootSlow: {fileID: 8300000, guid: 9b5115fc646581b4e81f517eab00e437, type: 3}
+  towerSupportEffect: {fileID: 0}
+  virusSpawn: {fileID: 0}
+  virusDeath: {fileID: 8300000, guid: 52395bc0f9f91b34c8a2a1c06a27c28d, type: 3}
+  virusDamaged: {fileID: 8300000, guid: fbef4e09e8b92094595a1589178077d9, type: 3}
+  virusReachBase: {fileID: 8300000, guid: 187d186ceedbab446a2aa3c06cae3f6e, type: 3}
+  waveStart: {fileID: 8300000, guid: 9f2d7b1fca0e0ab4eb0b707347ee2b67, type: 3}
+  waveComplete: {fileID: 8300000, guid: 847f097a9ff19db4da82bb045ffe2e41, type: 3}
+  victorySound: {fileID: 8300000, guid: e49d6a2a0e1339b40b98a22a0e957b79, type: 3}
+  gameOverSound: {fileID: 8300000, guid: 104bfdb95f5d0054b8b0466cc56e9766, type: 3}
+  sfxVolume: 0.7
+  maxSimultaneousSounds: 5

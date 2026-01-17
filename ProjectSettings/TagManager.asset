@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Node
+  - Virus
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Background
+  - Connections
+  - Nodes
+  - Effects
+  - Viruses
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2327496647
+    locked: 0
+  - name: Connections
+    uniqueID: 179336157
+    locked: 0
+  - name: Nodes
+    uniqueID: 2162966397
+    locked: 0
+  - name: Effects
+    uniqueID: 1668471657
+    locked: 0
+  - name: Viruses
+    uniqueID: 1819483425
+    locked: 0
+  m_RenderingLayers:
+  - Default
